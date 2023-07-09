@@ -7,6 +7,7 @@ import {
 
 import "./style.scss";
 import ContentWrapper from "../contentWrapper/contentWrapper";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
     return (
@@ -32,13 +33,13 @@ const Footer = () => {
                         <FaFacebookF />
                     </span>
                     <span className="icon">
-                        <FaInstagram />
+                    <a href="https://instagram.com/theadityasrivastav_?igshid=MzNlNGNkZWQ4Mg==" target="_blank" rel="noopener noreferrer" style={{textDecoration:"none",color:"inherit"}}><FaInstagram /></a>
                     </span>
                     <span className="icon">
-                        <FaTwitter />
+                        <a href="http://google.com" target="_blank" rel="noopener noreferrer" style={{textDecoration:"none",color:"inherit"}}><FaTwitter /></a>
                     </span>
                     <span className="icon">
-                        <FaLinkedin />
+                    <a href="https://www.linkedin.com/in/aditya-raj-9b2165227/" target="_blank" rel="noopener noreferrer" style={{textDecoration:"none",color:"inherit"}}><FaLinkedin /></a>
                     </span>
                 </div>
             </ContentWrapper>
