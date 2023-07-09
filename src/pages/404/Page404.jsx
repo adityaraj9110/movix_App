@@ -1,9 +1,16 @@
-import React from 'react'
-import "./style.scss"
-const Page404 = () => {
-  return (
-    <div>Page404</div>
-  )
-}
+import "./style.scss";
 
-export default Page404
+import ContentWrapper from "../../components/contentWrapper/ContentWrapper";
+
+const Page404 = () => {
+    return (
+        <div className="pageNotFound">
+            <ContentWrapper>
+                <span className="bigText">404</span>
+                <span className="smallText">Page not found!</span>
+            </ContentWrapper>
+        </div>
+    );
+};
+
+export default Page404;
