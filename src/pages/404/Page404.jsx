@@ -1,6 +1,7 @@
+import ContentWrapper from "../../components/contentWrapper/contentWrapper";
 import "./style.scss";
 
-import ContentWrapper from "../../components/contentWrapper/ContentWrapper";
+
 
 const Page404 = () => {
     return (
