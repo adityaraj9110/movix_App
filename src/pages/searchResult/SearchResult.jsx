@@ -88,7 +88,7 @@ const SearchResult = () => {
                             Sorry, Results not found!
                         </span>
                     )}
-                </ContentWrappe>
+                </ContentWrapper>
             )}
         </div>
     );
