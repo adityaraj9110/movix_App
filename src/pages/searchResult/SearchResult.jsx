@@ -5,10 +5,10 @@ import InfiniteScroll from "react-infinite-scroll-component";
 import "./style.scss";
 
 import { fetchDataFromApi } from "../../utils/api";
-import ContentWrapper from "../../components/contentWrapper/ContentWrapper";
 import MovieCard from "../../components/movieCard/MovieCard";
 import Spinner from "../../components/spinner/Spinner";
 import noResults from "../../assets/no-results.png";
+import ContentWrapper from "../../components/contentWrapper/contentWrapper";
 
 const SearchResult = () => {
     const [data, setData] = useState(null);
@@ -88,7 +88,7 @@ const SearchResult = () => {
                             Sorry, Results not found!
                         </span>
                     )}
-                </ContentWrapper>
+                </ContentWrappe>
             )}
         </div>
     );

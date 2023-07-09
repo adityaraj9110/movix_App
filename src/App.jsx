@@ -13,13 +13,11 @@ import Page404 from "./pages/404/Page404";
 
 function App() {
   const { url } = useSelector((state) => state.home);
-  // console.log("url is:", info.url);
   const dispatch = useDispatch();
 
   useEffect(() => {
     const getData = async () => {
       const data = await fetchDataFromApi("/configuration");
-      console.log(data);
       const url = {
         backdrop: data.images.secure_base_url + "original",
         poster: data.images.secure_base_url + "original",
